@@ -6,9 +6,10 @@ description: "Markdown Cheatsheet Demo..."
 keywords: "markdown, typography components, dummy content"
 ---
 
-## Typography Elements in One
-
-Let's start with a informative paragraph. **This text is bolded.** But not this one! _How about italic text?_ Cool right? Ok, let's **_combine_** them together. Yeah, that's right! I have code to highlight, so `ThisIsMyCode()`. What a nice! Good people will hyperlink away, so [here we go](#) or [http://www.example.com](http://www.example.com).
+我的 github 博客, 本博客使用 [jekyll](http://jekyll.bootcss.com/) 搭建!
+感谢 [github](https://github.com) 提供的 Github Pages 功能!
+ # 此博客布局参考了 [Monkey Snatch Banana](http://www.monkeysnatchbanana.com/) 博客
+ # 个人页面应用了 [resumecard](http://ddbullfrog.github.io/) 项目
 
 <div class="divider"></div>
 

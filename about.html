@@ -9,10 +9,10 @@ layout: author_layout
 <div class="container">
     <div class="row-center">
         <div class="col-md-7">
-            {% if site.data.author.workHistory %}
+            {% if site.layouts.abou.workHistory %}
                 <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Work History</h3>
                 <ul class="timeline">
-                    {% for work in site.data.author.workHistory %}
+                    {% for work in site.layouts.abou.workHistory %}
                         <li class="timeline-inverted">
                             {% if work.started %}
                                 <div class="timeline-badge info">{{ work.started }}</div>
@@ -50,10 +50,10 @@ layout: author_layout
                     {% endfor %}
                 </ul>
             {% endif %}
-            {% if site.data.author.educationHistory %}
+            {% if site.layouts.abou.educationHistory %}
                 <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education History</h3>
                 <ul class="timeline">
-                    {% for education in site.data.author.educationHistory %}
+                    {% for education in site.layouts.abou.educationHistory %}
                         <li class="timeline-inverted">
                             {% if education.started %}
                                 <div class="timeline-badge info">{{ education.started }}</div>
@@ -92,11 +92,11 @@ layout: author_layout
             {% endif %}
         </div>
         <div class="col-md-5">
-            {% if site.data.author.programmingSkills %}
+            {% if site.layouts.abou.programmingSkills %}
                 <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Programming Skills</h3>
                 <div class="grid-block">
                     <ul class="list-unstyled list-skills">
-                        {% for programmingSkill in site.data.author.programmingSkills %}
+                        {% for programmingSkill in site.layouts.abou.programmingSkills %}
                             <li>
                                 {% if programmingSkill.name %}
                                     <span class="caption-skill">{{ programmingSkill.name }}</span>
@@ -113,12 +113,12 @@ layout: author_layout
                     </ul>
                 </div>
             {% endif %}
-            {% if site.data.author.languages %}
+            {% if site.layouts.abou.languages %}
                 <div class="deviter"></div>
                 <h3 class="title with-icon"><span class="fa fa-globe cat-title"></span> Language Skills</h3>
                 <div class="grid-block">
                     <ul class="list-unstyled list-strip">
-                        {% for language in site.data.author.languages %}
+                        {% for language in site.layouts.abou.languages %}
                             {% if language.name %}
                                 {% if language.proficiency %}
                                     <li>

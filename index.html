@@ -12,7 +12,7 @@ title: Home
 <article class="preview">
     <header>
         <h2 class="post-title">
-            <a href="{{ post.url }}">  {{ post.title }} </a>
+            <a  class="post-link" href="{{ post.url }}">  {{ post.title }} </a>
         </h2>
         <p class="post-time"> {{ post.time }}</p>
     </header>
@@ -21,9 +21,10 @@ title: Home
             {{ post.excerpt }}
         </p>
         <p class="readmore">
-            <a href="{{ post.url }}">
+         <!--   <a href="{{ post.url }}">
                 阅读全文
                 <span class="glyphicon glyphicon-circle-arrow-right"></span>
+-->
             </a>
         </p>
     </section>

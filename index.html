@@ -14,7 +14,9 @@ title: Home
         <h2 class="post-title">
             <a class="post-link" href="{{ post.url }}">  {{ post.title }} </a>
         </h2>
-        <p class="post-date"> {{ post.date }}</p>
+      
+      
+        <p class="post-date"> {{ post.date | date: "%b %d" }}</p>
     </header>
     <section class="post-section">
         <p>

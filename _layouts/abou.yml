@@ -1,0 +1,77 @@
+# Author settings
+name: yansei
+title: 游民
+address: 中国, 云南
+email: serisi@live.cn
+github: arkoud
+gavatar: # /assets/img/avatar.JPG
+workHistory:
+- work4:
+  company: #云南
+  location: 中国, 云南
+  title: 印刷行业底层
+  started: #2016
+  duration: (2018.4 - Present)
+  description: 业余(平面设计 vb.net 3D制作)
+
+- work3:
+  company: #云南
+  location: 中国, 云南
+  title: 印刷行业底层
+  started: 2015
+  duration: (2015.4 - 2018)
+  description: 业余(平面设计 vb.net 3D制作)
+
+- work2:
+  company: #云南
+  location: 中国, 云南
+  title: 维护宇宙和平
+  started: #2016
+  duration: (2011 - 2014)
+  description: CAD PS平面图绘制
+
+- work1:
+  company: #云南
+  location: 中国, 云南
+  title: 正义不存
+  started: #2016
+  duration: (2008 - 2010)
+  description: 守山人
+
+educationHistory:
+- education1:
+  organization: 云南农业大学
+  degree: 
+  major: 农学与生物技术
+  started: 
+  duration: (2001 - 2005)
+  description: ～虚度光阴～
+languages:
+- language1:
+  name: 中文
+  proficiency: 80分#Native
+- language2:
+  name: English
+  proficiency: 50分#Limit
+programmingSkills:
+- Java:
+  name: VB.NET 
+  percentage: 50%
+- Bash:
+  name: Adobe Illustrator 
+  percentage: 80%
+- CPP:
+  name: Adobe Photoshop
+  percentage: 80%
+- CAD:
+  name: CAD
+  percentage: 60%
+- PHP:
+  name: C4D
+  percentage: 40%
+- Python:
+  name: Python
+  percentage: 10%
+- Kotlin:
+  name: AE
+  percentage: 30%

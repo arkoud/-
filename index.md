@@ -14,15 +14,15 @@ title: Home
         <h2 class="post-title">
             <a class="post-link" href="{{ post.url }}">  {{ post.title }} </a>
         </h2>
-      
-      
-        <p class="post-date"> {{ post.date | date: "%b %d" }}</p>
+ 
+        <p class="post-date"> {{ post.date }}</p>
     </header>
     <section class="post-section">
         <p>
             {{ post.excerpt }}
         </p>
         <p class="readmore">
+        
          <!--   <a href="{{ post.url }}">
                 阅读全文
                 <span class="glyphicon glyphicon-circle-arrow-right"></span>

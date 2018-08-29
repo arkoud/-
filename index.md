@@ -15,7 +15,7 @@ title: Home
             <a class="post-link" href="{{ post.url }}">  {{ post.title }} </a>
         </h2>
  
-        <p class="post-date"> {{ post.date }}</p>
+        <p class="post-date"> {{ post.date | date: '%Y' }}</p>
     </header>
     <section class="post-section">
         <p>
